@@ -23,3 +23,15 @@ Server > Client/Browser Downloads JS > Client/Browser executes react >FINALLYYY 
 -Page routes exist as soon as the javascript file is created, and component is exported out of pages folder. Does not have to be manually added to home page in order to exist.
 
 -API backend platform is built inside front end "pages" folder. Increases Speed.
+
+##How To Use
+
+###Create page/route
+
+1- Add file in page folder 'about.js'
+
+2a- for static page, create typical react component inside file named: 'about.js' (lowercase)
+
+2b for dynamic pages, create folder inside pages folder. named: 'profile'
+
+(FYI, its accessible + routed in upon creation)
