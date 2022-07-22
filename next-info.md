@@ -15,3 +15,11 @@ Server sends HTML ready to render > Client/Browser renders HTML, VIEWABLE! + Dow
 ###Client-Side Flow
 
 Server > Client/Browser Downloads JS > Client/Browser executes react >FINALLYYY page is viewable… and interactive
+
+##Next JS Notes:
+
+-Routes are built right in. No extra downloads needed.
+
+-Page routes exist as soon as the javascript file is created, and component is exported out of pages folder. Does not have to be manually added to home page in order to exist.
+
+-API backend platform is built inside front end "pages" folder. Increases Speed.
