@@ -25,7 +25,9 @@ Server > Client/Browser Downloads JS > Client/Browser executes react >FINALLYYY 
 
 -API backend platform is built inside front end "pages" folder. Increases Speed.
 
-##Create page/route
+##How To Next.js
+
+###Create page/route
 
 -1 Add file in page folder 'about.js'
 
@@ -35,7 +37,7 @@ Server > Client/Browser Downloads JS > Client/Browser executes react >FINALLYYY 
 
 (FYI, its accessible + routed in upon creation)
 
-##Create Dynamic Routes
+###Create Dynamic Routes
 
 1- create folder named profile (or anything) inside pages folder
 
@@ -53,9 +55,35 @@ Server > Client/Browser Downloads JS > Client/Browser executes react >FINALLYYY 
 
 -C Routing is enhanced by built in search/query parameter
 
-##ADD LINK
+###ADD LINK
 
 1- import Link from "next/link";
 
 2- Add link that routes to about page
-<Link href="/about">About</Link>
+"<Link href="/about">About</Link>"
+
+###Add Navbar To Layout
+
+What is Layout?
+
+-A HTML style tag "<Layout/>" with built in functionalitity
+
+-Sets up page format by mounting permanent components by default. Ex, Navbar, footer, sidebars, ads
+
+-Everything rendered between the Layout tag will act like children to their parent.
+
+How to Add Navbar to Layout?
+
+1- add Layout.js file to components folder
+
+2- create layout component
+
+3 import layout to lowest level component file named : \_app.js.
+import Layout from "../components/Layout";
+
+4 wrap the layout around the entire website component :
+
+function MyApp({ Component, pageProps }) {
+<Layout>
+<Component {...pageProps} />
+</Layout>
