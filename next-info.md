@@ -87,3 +87,13 @@ function MyApp({ Component, pageProps }) {
 <Layout>
 <Component {...pageProps} />
 </Layout>
+
+###404 Page
+
+Next has a default 404 page but you can customize it.
+
+Next recognizes the page by naming it 404
+
+2- add 404.js file in pages folder
+
+3- create UnknownPage component inside 404.js file
