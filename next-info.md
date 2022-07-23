@@ -17,6 +17,7 @@ Server sends HTML ready to render > Client/Browser renders HTML, VIEWABLE! + Dow
 Server > Client/Browser Downloads JS > Client/Browser executes react >FINALLYYY page is viewable… and interactive
 
 ##Next JS Notes:
+-Head: copy cat HTML metadata head tag. "import Head from "next/head";"
 
 -Routes are built right in. No extra downloads needed.
 
@@ -26,11 +27,11 @@ Server > Client/Browser Downloads JS > Client/Browser executes react >FINALLYYY 
 
 ##Create page/route
 
-1- Add file in page folder 'about.js'
+-1 Add file in page folder 'about.js'
 
-2a- for static page, create typical react component inside file named: 'about.js' (lowercase)
+-2a for static page, create typical react component inside file named: 'about.js' (lowercase)
 
-2b for dynamic pages, create folder inside pages folder. named: 'profile'
+-2b for dynamic pages, create folder inside pages folder. named: 'profile'
 
 (FYI, its accessible + routed in upon creation)
 
@@ -50,4 +51,11 @@ Server > Client/Browser Downloads JS > Client/Browser executes react >FINALLYYY 
 
 -B the variable name of the query parameter (specified data to sort) must be the same to pass the information right along to our user.
 
--C-Routing is enhanced by built in search/query parameter
+-C Routing is enhanced by built in search/query parameter
+
+##ADD LINK
+
+1- import Link from "next/link";
+
+2- Add link that routes to about page
+<Link href="/about">About</Link>
