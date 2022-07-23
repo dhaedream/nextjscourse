@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Project Overview
+
+This Next.js project is apart of my preperation for an upcoming project my team will be working on. I will help build the front end of our Web3 app focused on excellence, web3 education and inclusion. We are DeFi Ours and you can learn more here.
+
+This project can help assist someone who knows HTML, CSS, and javascript (react as a plus! no really, start there.) to learn Next.js. I'm taking more notes to possibly assist with the educational side DeFi Ours project. I saw an amazing oppurtunity to prepare materials as I inevitably learn new skills in this field.
 
 ## Getting Started
 
