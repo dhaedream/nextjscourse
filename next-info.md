@@ -24,9 +24,7 @@ Server > Client/Browser Downloads JS > Client/Browser executes react >FINALLYYY 
 
 -API backend platform is built inside front end "pages" folder. Increases Speed.
 
-##How To Use
-
-###Create page/route
+##Create page/route
 
 1- Add file in page folder 'about.js'
 
@@ -35,3 +33,21 @@ Server > Client/Browser Downloads JS > Client/Browser executes react >FINALLYYY 
 2b for dynamic pages, create folder inside pages folder. named: 'profile'
 
 (FYI, its accessible + routed in upon creation)
+
+##Create Dynamic Routes
+
+1- create folder named profile (or anything) inside pages folder
+
+2-add file ‘index.js’ in profile folder
+
+3- create typical react component ( its not typical react. Next.js default pages are accessible + routed automatically upon creation)
+
+4- create file with brackets of var name [varname].js
+
+5- activate + structure dynamic inside [varname].js file
+
+-A HOOK> import {useRouter} from 'next/router'
+
+-B the variable name of the query parameter (specified data to sort) must be the same to pass the information right along to our user.
+
+-C-Routing is enhanced by built in search/query parameter
